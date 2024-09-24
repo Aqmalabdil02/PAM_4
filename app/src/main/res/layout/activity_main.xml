@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#fff0db">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Aqmal Abdillah Makmur\n215060201111051"
+        android:textColor="#27a7f1"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:padding="12dp"
+        android:backgroundTint="#D3EAF8"
+        android:minHeight="48dp"
+        android:textColor="#424242"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Age"
+        android:padding="12dp"
+        android:backgroundTint="#D3EAF8"
+        android:minHeight="48dp"
+        android:textColor="#424242"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#27a7f1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#E8F5E9"
+        android:padding="8dp"/>
+</LinearLayout>
